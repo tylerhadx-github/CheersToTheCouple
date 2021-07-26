@@ -165,8 +165,8 @@
           <v-flex class="xs6 hidden-sm-and-down">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5733.939410731136!2d-103.2171898521845!3d44.06333418786988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x877d4318dca9ff83%3A0xf7104a074835f28c!2sCathedral%20of%20Our%20Lady%20of%20Perpetual%20Help%20Church!5e0!3m2!1sen!2sus!4v1586754355009!5m2!1sen!2sus"
-              :width="windowSize.x / 2"
-              :height="windowSize.y / 2"
+              :width="500 / 2"
+              :height="500 / 2"
               frameborder="0"
               style="border:0;"
               allowfullscreen=""
@@ -178,8 +178,8 @@
         <v-flex class="xs12 hidden-md-and-up">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5733.939410731136!2d-103.2171898521845!3d44.06333418786988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x877d4318dca9ff83%3A0xf7104a074835f28c!2sCathedral%20of%20Our%20Lady%20of%20Perpetual%20Help%20Church!5e0!3m2!1sen!2sus!4v1586754355009!5m2!1sen!2sus"
-            :width="windowSize.x"
-            :height="windowSize.y"
+            :width="500"
+            :height="500"
             frameborder="0"
             style="border:0;"
             allowfullscreen=""
@@ -242,8 +242,8 @@
           <v-flex class="xs6 hidden-sm-and-down">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11468.181529843847!2d-103.2944355!3d44.0617715!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8637107982ff75c8!2sBlessed%20Sacrament%20Catholic%20Church!5e0!3m2!1sen!2sus!4v1593982756459!5m2!1sen!2sus"
-              :width="windowSize.x / 2"
-              :height="windowSize.y / 2"
+              :width="500 / 2"
+              :height="500 / 2"
               frameborder="0"
               style="border:0;"
               allowfullscreen=""
@@ -255,8 +255,8 @@
         <v-flex class="xs12 hidden-md-and-up">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11468.181529843847!2d-103.2944355!3d44.0617715!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8637107982ff75c8!2sBlessed%20Sacrament%20Catholic%20Church!5e0!3m2!1sen!2sus!4v1593982756459!5m2!1sen!2sus"
-            :width="windowSize.x"
-            :height="windowSize.y"
+            :width="500"
+            :height="500"
             frameborder="0"
             style="border:0;"
             allowfullscreen=""
@@ -306,8 +306,8 @@
           <v-flex class="xs6 hidden-sm-and-down">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11461.08378359627!2d-103.1489259!3d44.098401!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x294e4ba1b22010bc!2sFairfield%20Inn%20%26%20Suites%20by%20Marriott%20Rapid%20City!5e0!3m2!1sen!2sus!4v1593983249628!5m2!1sen!2sus"
-              :width="windowSize.x / 2"
-              :height="windowSize.y / 2"
+              :width="500 / 2"
+              :height="500 / 2"
               frameborder="0"
               style="border:0;"
               allowfullscreen=""
@@ -319,8 +319,8 @@
         <v-flex class="xs12 hidden-md-and-up">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11461.08378359627!2d-103.1489259!3d44.098401!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x294e4ba1b22010bc!2sFairfield%20Inn%20%26%20Suites%20by%20Marriott%20Rapid%20City!5e0!3m2!1sen!2sus!4v1593983249628!5m2!1sen!2sus"
-            :width="windowSize.x"
-            :height="windowSize.y"
+            :width="500"
+            :height="500"
             frameborder="0"
             style="border:0;"
             allowfullscreen=""
@@ -372,8 +372,8 @@
             <v-icon color="blue">location_on</v-icon> The touristy things
             <iframe
               src="https://www.google.com/maps/d/u/1/embed?mid=1wxREjsK_T_ZFBISaTHaRZaaq852vlQta"
-              :width="windowSize.x / 2"
-              :height="windowSize.y / 2"
+              :width="500/ 2"
+              :height="500 / 2"
               frameborder="0"
               style="border:0;"
               allowfullscreen=""
@@ -391,8 +391,8 @@
           <v-icon color="blue">location_on</v-icon> The touristy things
           <iframe
             src="https://www.google.com/maps/d/u/1/embed?mid=1wxREjsK_T_ZFBISaTHaRZaaq852vlQta"
-            :width="windowSize.x"
-            :height="windowSize.y"
+            :width="500"
+            :height="500"
           ></iframe>
         </v-flex>
       </v-card-text>
@@ -432,7 +432,7 @@
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSeDfX0PgYpmAt3Lt7qurJE4PgwgBcnxdlukaqQy1E36vimhSA/viewform?embedded=true"
               :width="800"
-              :height="windowSize.y / 2"
+              :height="500 / 2"
               frameborder="0"
               marginheight="0"
               marginwidth="0"
@@ -445,7 +445,7 @@
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSeDfX0PgYpmAt3Lt7qurJE4PgwgBcnxdlukaqQy1E36vimhSA/viewform?embedded=true"
               :width="400"
-              :height="windowSize.y / 2"
+              :height="500 / 2"
               frameborder="0"
               marginheight="0"
               marginwidth="0"
@@ -459,7 +459,7 @@
             <iframe
               src="https://open.spotify.com/embed/user/spotify/playlist/1tQF9rff6vXq5qNSWubcFx?si=fVFkU0j0R8WIib8Da42B0Q"
               :width="800"
-              :height="windowSize.y / 2"
+              :height="500 / 2"
               frameborder="0"
               marginheight="0"
               marginwidth="0"
@@ -472,7 +472,7 @@
             <iframe
               src="https://open.spotify.com/embed/user/spotify/playlist/1tQF9rff6vXq5qNSWubcFx?si=fVFkU0j0R8WIib8Da42B0Qg"
               :width="400"
-              :height="windowSize.y / 2"
+              :height="500 / 2"
               frameborder="0"
               marginheight="0"
               marginwidth="0"
@@ -504,7 +504,7 @@
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSdCfBEtvEdcj4EfB48M47HX_F8DmCCmHKBL4dK3rxn_yKmMxQ/viewform?embedded=true"
               :width="800"
-              :height="windowSize.y / 2"
+              :height="500 / 2"
               frameborder="0"
               marginheight="0"
               marginwidth="0"
@@ -517,7 +517,7 @@
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSdCfBEtvEdcj4EfB48M47HX_F8DmCCmHKBL4dK3rxn_yKmMxQ/viewform?embedded=true"
               :width="400"
-              :height="windowSize.y / 2"
+              :height="500"
               frameborder="0"
               marginheight="0"
               marginwidth="0"
@@ -671,7 +671,7 @@ export default {
     },
     computed: {
       windowSize: function() {
-        return { x: window.innerWidth - 50, y: window.innerHeight - 50 };
+        return { x: 500, y: 500 };
       }
     }
   }
